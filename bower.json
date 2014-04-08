@@ -1,7 +1,7 @@
 {
   "name": "octoicons",
   "version": "0.0.1",
-  "main": "dist/",
+  "main": "./dist/",
   "keywords": ["iconic", "font", "octobird"],
   "author": "Dmitriy Kharchenko <akimoto@yandex.ru>",
   "description": "Iconic font",
