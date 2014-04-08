@@ -1,0 +1,302 @@
+---
+# This is configuration file for font builder and other support scripts.
+# Format is descriped below.
+#
+#
+# # metadata, to generate demo & fontello info dialogs
+# meta:
+#
+#  author: Daniel Buce
+#  homepage: http://...
+#  email: ...
+#  twitter: http://twitter.com/...
+#  dribbble: http://dribbble.com/...
+#  license: SIL
+#  license_url: http://scripts.sil.org/OFL
+#
+#   css-prefix: "icon-"             # prefix for css-generated classes
+#   demo-columns: 4                 # used for html demo page generation
+#
+# # Font headers. All vars from here will be used as font
+# # params in fontforge http://fontforge.sourceforge.net/python.html
+# font:
+#
+#   version: "1.0"
+#
+#   # use !!!small!!! letters a-z, or Opera will fail under OS X
+#   # fontname will be also used as file name.
+#   fontname: myfont
+#
+#   fullname: MyFont
+#   familyname: Myfont
+#
+#   copyright: Copyright (C) 2012 by xxxxxxxx
+#
+#   ascent: 1638
+#   descent: 410
+#   weight: Regular
+#
+#
+# #
+# # Optional. You can apply global rescale + offset to all font glyphs.
+# # Param values ar 0..1, where 1 = 100%.
+# #
+# transform:
+#   baseline: 0.2                 # baseline for rescale symmetry. Default value
+#                                 # calculated from ascent/decsent
+#   rescale: 0.68                 # rescale glyphs and center around baseline
+#   offset: -0.1                  # shift up/down
+#
+# glyphs:
+#   - file: glyph1_file           # file name, without extention
+#     from: 0xNNN                 # Source code for remapper or merge tool
+#     code: 0xNNN                 # Symbol code 0x - hex
+#     css: icon-gpyph1-name       # For generated CSS
+#     search: [word1, word2]      # Search aliases (array). CSS name will be
+#                                 # included automatically
+#     src: first_font_alias       # alias to font for merge tool
+#                                 # list of aliases in src_fonts section
+#
+#     #
+#     # local transformations, only for this glyph (optional)
+#     #
+#     transform:                  # personal glyph transformation.
+#       rescale_rel               # *_rel - applyed after global.
+#       offset: 0.2               # without *_rel - override global
+#
+# #
+# # Fonts aliases used only in font merge tool
+# #
+# src_fonts:
+#   first_font_alias: "/absolute/path/to/first/font.ttf"
+#
+################################################################################
+#
+
+
+meta:
+  author: octobird
+  homepage: http://octobird.com
+  email: akimoto@yandex.ru
+  github: https://github.com/octobird/octo-icons
+
+  css_prefix_text: "octicon-"
+  columns: 4
+
+#transform:
+#  baseline: 0.4
+#  rescale: 2.4
+
+font:
+  version: "1.0"
+
+  # use !!!small!!! letters a-z, or Opera will fail under OS X
+  # fontname will be also used as file name.
+  fontname: octoicons
+
+  fullname: Octoicons
+  familyname: Octoicons
+
+  ascent: 850
+  descent: -150
+  weight: Normal
+
+
+glyphs:
+  -
+    css: 'analytics'
+    uid: 1934ba160d25216e15ea9572d78c8d71
+    code: 0xe810
+
+  -
+    css: 'calendar'
+    uid: e2272bcc3f887cef544839b0c374aaa0
+    code: 0xe820
+  -
+    css: 'campaign'
+    uid: cccc63fc51503d9f6a3d28547c055719
+    code: 0xe830
+  -
+    css: 'caret-down'
+    uid: ef8b495b2e6b1dd2d4d3ab2f51f69b24
+    code: 0xe840
+  -
+    css: 'caret-up'
+    uid: 531f654e2c7ce78eefc222d48527ae5c
+    code: 0xe850
+  -
+    css: 'chain-link'
+    uid: ab9b06b6be030d294a0c5bde6492437f
+    code: 0xe860
+  -
+    css: 'chat-bubble'
+    uid: 5e04c535ea589b6adbf1e49bcee06b21
+    code: 0xe870
+  -
+    css: 'cross-circle'
+    uid: 7ed41d7efd5dab29c0516eb3fcddd38c
+    code: 0xe880
+  -
+    css: 'cross-square'
+    uid: 656ce64e701684f4bf2d459a2f4bc1ea
+    code: 0xe890
+  -
+    css: 'cross'
+    uid: 8f927199f56ddfe37c4dd03a6cc57224
+    code: 0xe8a0
+  -
+    css: 'dashboard'
+    uid: ca94d1a7d79fb2fc59c8af11cbcf6d00
+    code: 0xe8b0
+  -
+    css: 'down-arrow'
+    uid: 5d1a125f952953ae01a605bc476d41cf
+    code: 0xe8c0
+  -
+    css: 'ellipsis-border-circle'
+    uid: 0f847e0aa281f098754dc83b1cf359b3
+    code: 0xe8d0
+  -
+    css: 'goodmood-border-circle'
+    uid: df7676f6c28487fb53d31bdac6901219
+    code: 0xe8e0
+  -
+    css: 'group'
+    uid: 8ba8e8fbe9f6a54366f74b10180ba771
+    code: 0xe8f0
+  -
+    css: 'headset'
+    uid: 9ba00aa609923d30aa334c17b1103103
+    code: 0xe900
+  -
+    css: 'heart-border'
+    uid: 6401f9d77a0fd474aebfbb2ff9354fb2
+    code: 0xe910
+  -
+    css: 'journal'
+    uid: e06f003701a85c0d4cf139674244e656
+    code: 0xe920
+  -
+    css: 'left-arrow'
+    uid: f27b17b2e3fd3fb5d642991c4d9b6be1
+    code: 0xe940
+  -
+    css: 'message-bubble-empty'
+    uid: 4292065d0c73403de2b3d34ee8091d70
+    code: 0xe950
+  -
+    css: 'message-bubble'
+    uid: 623410f12d5119799610be795830cc88
+    code: 0xe960
+  -
+    css: 'minus-square'
+    uid: 6e80bf24beb90c0a3ac8bead91e6ca5d
+    code: 0xe970
+  -
+    css: 'money-border-circle'
+    uid: 83a5d8b4d63ae2997037f989d82dcbe5
+    code: 0xe980
+  -
+    css: 'octobird-logo'
+    uid: 125ad581d6c32fc2523d4fe883ce2620
+    code: 0xe990
+  -
+    css: 'ok-sign-square'
+    uid: 84af17e0c58051cfd4b4658baa8f8c00
+    code: 0xe9a0
+  -
+    css: 'ok-sign'
+    uid: 1fb2d9a461ea950287904159cbe1079a
+    code: 0xe9b0
+  -
+    css: 'padlock'
+    uid: ecf94052df3fe402e82f7e9169721600
+    code: 0xe9c0
+  -
+    css: 'platforms'
+    uid: afd75a9f7220b09cd77f5130d9e0a808
+    code: 0xe9d0
+  -
+    css: 'player-play'
+    uid: a9340c523e035dc8d045b3cad366bd40
+    code: 0xe9e0
+  -
+    css: 'player-record'
+    uid: c0ce101df05dc5b8f70120e353fef91f
+    code: 0xe9f0
+  -
+    css: 'player-stop'
+    uid: e71c02fe0df2301d8e48ed1cf36ccdf4
+    code: 0xea00
+  -
+    css: 'plus-circle'
+    uid: bb631d1c3770ab327a71685dcbbfd7ab
+    code: 0xea10
+  -
+    css: 'plus-square'
+    uid: 270fb8ffda8071e89583a3830417d2bd
+    code: 0xea20
+  -
+    css: 'plus'
+    uid: 547e5c1cd99de099eff721477b99d6b9
+    code: 0xea30
+  -
+    css: 'profile'
+    uid: a47c63092ad1d524b4ac54e5b76bf39b
+    code: 0xea40
+  -
+    css: 'question-sign-circle'
+    uid: 44248015eb0e85aae759cd473e892404
+    code: 0xea50
+  -
+    css: 'refresh-circle'
+    uid: 91b181e5c7170c919e901417d06505ae
+    code: 0xea60
+  -
+    css: 'refresh'
+    uid: 579f0cd7eff4d5beb35b5cd60b1ba924
+    code: 0xea70
+  -
+    css: 'resize'
+    uid: d79390a83fa3c7ec4b999d69e6e52dfb
+    code: 0xea80
+  -
+    css: 'right-arrow'
+    uid: 9a4bac11fd03e4c1b48187a0d969c1e8
+    code: 0xea90
+  -
+    css: 'ruble-sign'
+    uid: cd5fd970cb21f5885e1dfd662455d968
+    code: 0xeaa0
+  -
+    css: 'shevron-down-square'
+    uid: c0f08e9ca1f9d74c0edb28a3cca8c110
+    code: 0xeab0
+  -
+    css: 'shevron-left-square'
+    uid: 527f0699ff65829ed9da0ef8934f07b4
+    code: 0xeac0
+  -
+    css: 'shevron-right-square'
+    uid: 8437662e8d5ee3ba00ac438b7c1a139c
+    code: 0xead0
+  -
+    css: 'shevron-up-square'
+    uid: 6f517f84ad8860ab3896bc23b200c06d
+    code: 0xeae0
+  -
+    css: 'square'
+    uid: df0604db5d826e75057db07379d47d2b
+    code: 0xeaf0
+  -
+    css: 'star'
+    uid: 2d20ecd13e93a612c9cb88f6cc031106
+    code: 0xeb00
+  -
+    css: 'target'
+    uid: 960d2bb39f9bae1d10a571aa58caf57c
+    code: 0xeb10
+  -
+    css: 'up-arrow'
+    uid: b7a1ce4824d0b0adf8e00a774fc8690b
+    code: 0xeb20
