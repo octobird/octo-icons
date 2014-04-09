@@ -16,20 +16,8 @@
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
-		<sliceSourceBounds  height="191.977" y="-607.994" x="392.023" width="239.953" bottomLeftOrigin="true"></sliceSourceBounds>
+		<sliceSourceBounds  width="598.299" height="478.676" x="212.35" y="273.156" bottomLeftOrigin="true"></sliceSourceBounds>
 	</sfw>
 </metadata>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="none" d="M512,607.994l119.977-191.977H392.023L512,607.994"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<path fill="none" d="M511.997,751.344l299.151-478.676H212.85L511.997,751.344"/>
 </svg>

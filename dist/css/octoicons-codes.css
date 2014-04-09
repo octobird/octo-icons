@@ -1,9 +1,7 @@
 
 .octoicon-analytics:before { content: '\e801'; } /* '' */
-.octoicon-up-arrow:before { content: '\e800'; } /* '' */
+.octoicon-caret-up-1:before { content: '\e833'; } /* '' */
 .octoicon-campaign:before { content: '\e81f'; } /* '' */
-.octoicon-caret-down:before { content: '\e820'; } /* '' */
-.octoicon-caret-up:before { content: '\e821'; } /* '' */
 .octoicon-chain-link:before { content: '\e822'; } /* '' */
 .octoicon-chat-bubble:before { content: '\e823'; } /* '' */
 .octoicon-cross-circle:before { content: '\e824'; } /* '' */
@@ -23,10 +21,10 @@
 .octoicon-minus-square:before { content: '\e807'; } /* '' */
 .octoicon-money-border-circle:before { content: '\e808'; } /* '' */
 .octoicon-octobird-logo:before { content: '\e809'; } /* '' */
-.octoicon-calendar:before { content: '\e802'; } /* '' */
+.octoicon-ok-sign-square:before { content: '\e80a'; } /* '' */
 .octoicon-ok-sign:before { content: '\e80b'; } /* '' */
 .octoicon-padlock:before { content: '\e80c'; } /* '' */
-.octoicon-platforms:before { content: '\e80d'; } /* '' */
+.octoicon-calendar:before { content: '\e802'; } /* '' */
 .octoicon-player-play:before { content: '\e80e'; } /* '' */
 .octoicon-player-record:before { content: '\e80f'; } /* '' */
 .octoicon-player-stop:before { content: '\e810'; } /* '' */
@@ -39,7 +37,6 @@
 .octoicon-refresh:before { content: '\e817'; } /* '' */
 .octoicon-resize:before { content: '\e818'; } /* '' */
 .octoicon-right-arrow:before { content: '\e819'; } /* '' */
-.octoicon-ruble-sign:before { content: '\e803'; } /* '' */
 .octoicon-shevron-down-square:before { content: '\e806'; } /* '' */
 .octoicon-shevron-left-square:before { content: '\e805'; } /* '' */
 .octoicon-shevron-right-square:before { content: '\e81a'; } /* '' */
@@ -47,4 +44,8 @@
 .octoicon-square:before { content: '\e81c'; } /* '' */
 .octoicon-star:before { content: '\e81d'; } /* '' */
 .octoicon-target:before { content: '\e81e'; } /* '' */
-.octoicon-ok-sign-square:before { content: '\e80a'; } /* '' */
+.octoicon-up-arrow:before { content: '\e800'; } /* '' */
+.octoicon-ruble-sign:before { content: '\e803'; } /* '' */
+.octoicon-octowheel:before { content: '\e831'; } /* '' */
+.octoicon-caret-down-1:before { content: '\e832'; } /* '' */
+.octoicon-platforms:before { content: '\e80d'; } /* '' */
