@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'octoicons';
-  src: url('../font/octoicons.eot?55177152');
-  src: url('../font/octoicons.eot?55177152#iefix') format('embedded-opentype'),
-       url('../font/octoicons.woff?55177152') format('woff'),
-       url('../font/octoicons.ttf?55177152') format('truetype'),
-       url('../font/octoicons.svg?55177152#octoicons') format('svg');
+  src: url('../font/octoicons.eot?36496191');
+  src: url('../font/octoicons.eot?36496191#iefix') format('embedded-opentype'),
+       url('../font/octoicons.woff?36496191') format('woff'),
+       url('../font/octoicons.ttf?36496191') format('truetype'),
+       url('../font/octoicons.svg?36496191#octoicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'octoicons';
-    src: url('../font/octoicons.svg?55177152#octoicons') format('svg');
+    src: url('../font/octoicons.svg?36496191#octoicons') format('svg');
   }
 }
 */
@@ -51,7 +51,7 @@
 }
  
 .octoicon-analytics:before { content: '\e801'; } /* '' */
-.octoicon-caret-up-1:before { content: '\e833'; } /* '' */
+.octoicon-left-arrow-square:before { content: '\e836'; } /* '' */
 .octoicon-campaign:before { content: '\e81f'; } /* '' */
 .octoicon-chain-link:before { content: '\e822'; } /* '' */
 .octoicon-chat-bubble:before { content: '\e823'; } /* '' */
@@ -75,9 +75,9 @@
 .octoicon-ok-sign-square:before { content: '\e80a'; } /* '' */
 .octoicon-ok-sign:before { content: '\e80b'; } /* '' */
 .octoicon-padlock:before { content: '\e80c'; } /* '' */
-.octoicon-calendar:before { content: '\e802'; } /* '' */
+.octoicon-platforms:before { content: '\e80d'; } /* '' */
 .octoicon-player-play:before { content: '\e80e'; } /* '' */
-.octoicon-player-record:before { content: '\e80f'; } /* '' */
+.octoicon-calendar:before { content: '\e802'; } /* '' */
 .octoicon-player-stop:before { content: '\e810'; } /* '' */
 .octoicon-plus-circle:before { content: '\e811'; } /* '' */
 .octoicon-plus-square:before { content: '\e812'; } /* '' */
@@ -99,4 +99,9 @@
 .octoicon-ruble-sign:before { content: '\e803'; } /* '' */
 .octoicon-octowheel:before { content: '\e831'; } /* '' */
 .octoicon-caret-down-1:before { content: '\e832'; } /* '' */
-.octoicon-platforms:before { content: '\e80d'; } /* '' */
+.octoicon-caret-up-1:before { content: '\e833'; } /* '' */
+.octoicon-beaten-donut:before { content: '\e820'; } /* '' */
+.octoicon-profile-link:before { content: '\e821'; } /* '' */
+.octoicon-analytics-details:before { content: '\e834'; } /* '' */
+.octoicon-right-arrow-square:before { content: '\e835'; } /* '' */
+.octoicon-player-record:before { content: '\e80f'; } /* '' */
