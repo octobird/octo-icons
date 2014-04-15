@@ -1,6 +1,6 @@
 
 .octoicon-analytics:before { content: '\e801'; } /* '' */
-.octoicon-left-arrow-square:before { content: '\e836'; } /* '' */
+.octoicon-finance:before { content: '\e83b'; } /* '' */
 .octoicon-campaign:before { content: '\e81f'; } /* '' */
 .octoicon-chain-link:before { content: '\e822'; } /* '' */
 .octoicon-chat-bubble:before { content: '\e823'; } /* '' */
@@ -26,10 +26,10 @@
 .octoicon-padlock:before { content: '\e80c'; } /* '' */
 .octoicon-platforms:before { content: '\e80d'; } /* '' */
 .octoicon-player-play:before { content: '\e80e'; } /* '' */
-.octoicon-calendar:before { content: '\e802'; } /* '' */
+.octoicon-player-record:before { content: '\e80f'; } /* '' */
 .octoicon-player-stop:before { content: '\e810'; } /* '' */
 .octoicon-plus-circle:before { content: '\e811'; } /* '' */
-.octoicon-plus-square:before { content: '\e812'; } /* '' */
+.octoicon-calendar:before { content: '\e802'; } /* '' */
 .octoicon-plus:before { content: '\e813'; } /* '' */
 .octoicon-profile:before { content: '\e814'; } /* '' */
 .octoicon-question-sign-circle:before { content: '\e815'; } /* '' */
@@ -53,4 +53,9 @@
 .octoicon-profile-link:before { content: '\e821'; } /* '' */
 .octoicon-analytics-details:before { content: '\e834'; } /* '' */
 .octoicon-right-arrow-square:before { content: '\e835'; } /* '' */
-.octoicon-player-record:before { content: '\e80f'; } /* '' */
+.octoicon-left-arrow-square:before { content: '\e836'; } /* '' */
+.octoicon-cog-border-circle:before { content: '\e837'; } /* '' */
+.octoicon-arrow-down-border-circle:before { content: '\e838'; } /* '' */
+.octoicon-news:before { content: '\e839'; } /* '' */
+.octoicon-question-sign:before { content: '\e83a'; } /* '' */
+.octoicon-plus-square:before { content: '\e812'; } /* '' */
