@@ -58,8 +58,8 @@
 .octoicon-up-arrow { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
 .octoicon-ruble-sign { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
 .octoicon-octowheel { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe831;&nbsp;'); }
-.octoicon-caret-down-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe832;&nbsp;'); }
-.octoicon-caret-up-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe833;&nbsp;'); }
+.octoicon-caret-down { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe832;&nbsp;'); }
+.octoicon-caret-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe833;&nbsp;'); }
 .octoicon-beaten-donut { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe820;&nbsp;'); }
 .octoicon-profile-link { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe821;&nbsp;'); }
 .octoicon-analytics-details { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe834;&nbsp;'); }

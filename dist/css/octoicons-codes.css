@@ -47,8 +47,8 @@
 .octoicon-up-arrow:before { content: '\e800'; } /* '' */
 .octoicon-ruble-sign:before { content: '\e803'; } /* '' */
 .octoicon-octowheel:before { content: '\e831'; } /* '' */
-.octoicon-caret-down-1:before { content: '\e832'; } /* '' */
-.octoicon-caret-up-1:before { content: '\e833'; } /* '' */
+.octoicon-caret-down:before { content: '\e832'; } /* '' */
+.octoicon-caret-up:before { content: '\e833'; } /* '' */
 .octoicon-beaten-donut:before { content: '\e820'; } /* '' */
 .octoicon-profile-link:before { content: '\e821'; } /* '' */
 .octoicon-analytics-details:before { content: '\e834'; } /* '' */

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'octoicons';
-  src: url('../font/octoicons.eot?13332697');
-  src: url('../font/octoicons.eot?13332697#iefix') format('embedded-opentype'),
-       url('../font/octoicons.woff?13332697') format('woff'),
-       url('../font/octoicons.ttf?13332697') format('truetype'),
-       url('../font/octoicons.svg?13332697#octoicons') format('svg');
+  src: url('../font/octoicons.eot?52162049');
+  src: url('../font/octoicons.eot?52162049#iefix') format('embedded-opentype'),
+       url('../font/octoicons.woff?52162049') format('woff'),
+       url('../font/octoicons.ttf?52162049') format('truetype'),
+       url('../font/octoicons.svg?52162049#octoicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'octoicons';
-    src: url('../font/octoicons.svg?13332697#octoicons') format('svg');
+    src: url('../font/octoicons.svg?52162049#octoicons') format('svg');
   }
 }
 */
@@ -98,8 +98,8 @@
 .octoicon-up-arrow:before { content: '\e800'; } /* '' */
 .octoicon-ruble-sign:before { content: '\e803'; } /* '' */
 .octoicon-octowheel:before { content: '\e831'; } /* '' */
-.octoicon-caret-down-1:before { content: '\e832'; } /* '' */
-.octoicon-caret-up-1:before { content: '\e833'; } /* '' */
+.octoicon-caret-down:before { content: '\e832'; } /* '' */
+.octoicon-caret-up:before { content: '\e833'; } /* '' */
 .octoicon-beaten-donut:before { content: '\e820'; } /* '' */
 .octoicon-profile-link:before { content: '\e821'; } /* '' */
 .octoicon-analytics-details:before { content: '\e834'; } /* '' */

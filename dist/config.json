@@ -680,7 +680,7 @@
     },
     {
       "uid": "4638b62b23c08ac669e8b0f6c5e0e8c3",
-      "css": "caret-down-1",
+      "css": "caret-down",
       "code": 59442,
       "src": "custom_icons",
       "selected": true,
@@ -694,7 +694,7 @@
     },
     {
       "uid": "a075a43f72fbe5a749c890ae8931ed6f",
-      "css": "caret-up-1",
+      "css": "caret-up",
       "code": 59443,
       "src": "custom_icons",
       "selected": true,
