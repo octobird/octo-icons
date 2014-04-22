@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'octoicons';
-  src: url('../font/octoicons.eot?52162049');
-  src: url('../font/octoicons.eot?52162049#iefix') format('embedded-opentype'),
-       url('../font/octoicons.woff?52162049') format('woff'),
-       url('../font/octoicons.ttf?52162049') format('truetype'),
-       url('../font/octoicons.svg?52162049#octoicons') format('svg');
+  src: url('../font/octoicons.eot?67107493');
+  src: url('../font/octoicons.eot?67107493#iefix') format('embedded-opentype'),
+       url('../font/octoicons.woff?67107493') format('woff'),
+       url('../font/octoicons.ttf?67107493') format('truetype'),
+       url('../font/octoicons.svg?67107493#octoicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'octoicons';
-    src: url('../font/octoicons.svg?52162049#octoicons') format('svg');
+    src: url('../font/octoicons.svg?67107493#octoicons') format('svg');
   }
 }
 */
@@ -51,7 +51,7 @@
 }
  
 .octoicon-analytics:before { content: '\e801'; } /* '' */
-.octoicon-warning:before { content: '\e83c'; } /* '' */
+.octoicon-beaten-donut:before { content: '\e820'; } /* '' */
 .octoicon-campaign:before { content: '\e81f'; } /* '' */
 .octoicon-chain-link:before { content: '\e822'; } /* '' */
 .octoicon-chat-bubble:before { content: '\e823'; } /* '' */
@@ -100,7 +100,6 @@
 .octoicon-octowheel:before { content: '\e831'; } /* '' */
 .octoicon-caret-down:before { content: '\e832'; } /* '' */
 .octoicon-caret-up:before { content: '\e833'; } /* '' */
-.octoicon-beaten-donut:before { content: '\e820'; } /* '' */
 .octoicon-profile-link:before { content: '\e821'; } /* '' */
 .octoicon-analytics-details:before { content: '\e834'; } /* '' */
 .octoicon-right-arrow-square:before { content: '\e835'; } /* '' */
@@ -110,4 +109,5 @@
 .octoicon-news:before { content: '\e839'; } /* '' */
 .octoicon-question-sign:before { content: '\e83a'; } /* '' */
 .octoicon-finance:before { content: '\e83b'; } /* '' */
+.octoicon-warning:before { content: '\e83c'; } /* '' */
 .octoicon-plus-square:before { content: '\e812'; } /* '' */
